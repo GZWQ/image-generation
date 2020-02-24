@@ -6,7 +6,7 @@ This image generation work is part of my master project. And I train the model o
 
 each image, the first image is Appearance image, the third image is Pose image, and the middle image is generated image, where it should have the appearance from the first image but pose from the third image.
 
-![Screenshot1](imgs/49_1895_8.png)                 ![Screenshot1](imgs/49_1895_6-1197348.png) 
+![Screenshot1](imgs/49_1895_8.png)       --------------------       ![Screenshot1](imgs/49_1895_6-1197348.png) 
 
-![Screenshot1](imgs/45_1895_9.png)                  ![Screenshot1](imgs/49_1895_6.png)  
+![Screenshot1](imgs/45_1895_9.png)      --------------------        ![Screenshot1](imgs/49_1895_6.png)  
 
