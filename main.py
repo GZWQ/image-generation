@@ -1,6 +1,5 @@
 import argparse
 from model import PoseGAN
-from disentagled_model import DisGAN
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Pose guided image generation usign deformable skip layers')
 
@@ -34,6 +33,5 @@ if __name__ == '__main__':
     parser.add_argument("--checkpoints_dir", default="checkpoints/", help="Folder with checkpoints")
 
     args = parser.parse_args()
-    # model = PoseGAN(args)
-    model = DisGAN(args)
+    model = PoseGAN(args)
     model.train()
