@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=0 python main.py --l1_penalty_weight 100 --tv_penalty_weight 0 --lstruct_penalty_weight 0 --mae_weight 0
